@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Gaston from './components/Gaston'
 import Lee from './components/Lee'
+import A from './components/a'
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
         </p>
         <Gaston />
         <Lee />
+        <A />
       </div>
     );
   }
